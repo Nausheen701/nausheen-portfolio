@@ -103,13 +103,15 @@ body {
 
  .btn-primary {
     background: var(--color-primary);
-    color: var (--color-bg)
+    color: var(--color-bg)
  }
 
  img {
     display: block;
-    width: 100%;
+    width: 30%;
+    height: 30%;
     object-fit: cover;
+    
  }
 
 /* ======= MEDIA QUERIES (MEDIUM DEVICES)   */
