@@ -19,7 +19,7 @@ header {
     justify-content: center;
 }
 
-/* =============CTA ==============*/
+/* =============HEADER SOCIALS ==============*/
 
 .header__socials {
     display: flex;
@@ -29,4 +29,24 @@ header {
     position: absolute;
     left: 0;
     bottom: 3 rem;
+}
+
+.header__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* =============ME ==============*/
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 22.3rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 3rem;
+    /* border-radius: 12rem 12rem 0 0; */
+    overflow: hidden;
+    /* padding: 2rem; */
 }
