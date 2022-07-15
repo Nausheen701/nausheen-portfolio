@@ -1,7 +1,8 @@
 .about__container{
     display: grid;
-    grid-template-columns: 65% 45%;
-    gap: 15%; 
+    grid-template-columns: 65% 25%;
+    /* column-gap: 5px; */
+    gap: 10%; 
 }
 
 .about__me {
@@ -22,7 +23,7 @@
     /* border-radius: 2 rem; */
     /* overflow: hidden; */
     /* margin-left: 4rem; */
-    padding: 0rem;    
+    padding: 0rem 0 0 1rem;    
     transform: translateX(4rem); 
     /* transform: rotate(10deg); */
     transition: var(--transition);
@@ -34,6 +35,7 @@
 
 .about__cards {
     display: grid;
+    grid-template-columns: repeat(1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
@@ -101,6 +103,8 @@
 
     .about__cards {
         grid-template-columns: 1fr 1fr;
+        /* display: grid;
+        grid-template-rows: 1fr 1 fr; */
         gap: 1rem;
     }
 
