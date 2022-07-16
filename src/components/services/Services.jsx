@@ -15,9 +15,62 @@ const Services = () => {
         <u1 className='service__list'>
           <li>
           <BiCheck className='service__list-icon'/>
-          </li>          
+          <p>Add some writing</p>
+          </li> 
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>  
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>         
         </u1>
       </article>
+      {/* END OF UI/UX */}
+    
+      <article className="service">
+        <div className="service__head">
+          <h3>Web Development</h3>
+        </div> 
+        <u1 className='service__list'>
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li> 
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>  
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>         
+        </u1>
+      </article>
+
+{/* End of Web development */}
+
+      <article className="service">
+        <div className="service__head">
+          <h3>Content Creation</h3>
+        </div> 
+        <u1 className='service__list'>
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li> 
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>  
+          <li>
+          <BiCheck className='service__list-icon'/>
+          <p>Add some writing</p>
+          </li>         
+        </u1>
+      </article>
+
     </div>
    </section>
   )
