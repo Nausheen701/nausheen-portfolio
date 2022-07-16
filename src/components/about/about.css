@@ -6,7 +6,7 @@
 }
 
 .about__me {
-    width: 70%;
+    width: 100%;
     aspect-ratio: 1/1;
     /* border-radius: 2rem; */
     background: linear-gradient(
@@ -23,8 +23,8 @@
     /* border-radius: 2 rem; */
     /* overflow: hidden; */
     /* margin-left: 4rem; */
-    padding: 0rem 0 0 1rem;    
-    transform: translateX(4rem); 
+    /* padding: 0rem 0 0 1rem;     */
+    transform: translateX(2rem); 
     /* transform: rotate(10deg); */
     transition: var(--transition);
 }
@@ -35,8 +35,8 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(2fr); */
+    grid-template-columns: repeat(4, 4fr);
     gap: 1.5rem;
 }
 

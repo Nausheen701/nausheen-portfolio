@@ -16,14 +16,22 @@ const About = () => {
       <h2>About me</h2>
 
       <div className="container about__container">
-        <div className="about__me">
+       
+        {/* <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="About Image"/>
-          </div>
-        </div>
+          </div> 
+        </div> */}
+        
 
         <div className="about__content">
           <div className="about__cards">
+
+          <div className="about__me">
+          <div className="about__me-image">
+            <img src={ME} alt="About Image"/>
+          </div> 
+        </div>
 
           <article className='about__card'>
             {/* <FaAward className='about__icon'/> */}
@@ -74,8 +82,8 @@ const About = () => {
             <small> 5 completed </small>
             </article> */}
             
-            <p> A paragraph</p>
-            <a href="#contact" className='btn'>Let's talk</a>
+           {/* <center><a href="#contact" className='btn'>Let's talk</a> </center>  */}
+           
           </div>
         </div>
 
