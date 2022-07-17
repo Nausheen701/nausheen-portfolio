@@ -1,6 +1,6 @@
-.about__container{
+.about__container {
     display: grid;
-    grid-template-columns: 65% 25%;
+    grid-template-columns: 95% 25%;
     /* column-gap: 5px; */
     gap: 10%; 
 }
