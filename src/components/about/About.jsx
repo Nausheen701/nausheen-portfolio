@@ -55,6 +55,7 @@ const About = () => {
            
             <small> FORMSORT </small> <br></br>
             <small> FATIH INSTITUTE </small> <br></br>
+            <small> PRECIOUS HEARTS </small> <br></br>
             <small> IS 230 Q </small><br></br>
             <small> SUNNIPATH ACADEMY </small><br></br>
             
@@ -65,6 +66,7 @@ const About = () => {
             <h5>Education</h5>
             <small> Flatiron School, SWE </small> <br></br>
             <small> Hunter College, MSEd </small> <br></br>
+            <small> NYC Teaching Fellows </small> <br></br>
             <small> Fulbright Fellow </small> <br></br>
             <small> Barnard College, BA </small> <br></br>
             </article>
