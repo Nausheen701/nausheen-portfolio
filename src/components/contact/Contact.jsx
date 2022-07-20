@@ -15,7 +15,7 @@ const form = useRef()
     emailjs.sendForm('service_fg5dyzk', 'template_vlegypn', form.current, 'HT2UeyhjpQtSHZgAF')
     
     e.target.reset()
-    
+
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -26,7 +26,7 @@ const form = useRef()
   return (
     <section id='contact'>
       {/* <h5>Get in touch</h5> */}
-      <h2>Contact Me</h2>
+      <h2>Contact me</h2>
 
       <div className="container contact__container"> 
         <div className="contact__options"> 
